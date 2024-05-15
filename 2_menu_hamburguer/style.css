@@ -1,0 +1,29 @@
+.dropdown {
+  display: none;
+}
+
+@media (max-width: 980px){
+  .dropdown {
+    display: block;
+    background-color: #28bab0;
+    text-align: center;
+    padding-top: 10px;
+  }
+  .dropdown a{
+    color: #fff;
+    line-height: 30px;
+    text-decoration: none;
+  }
+  .dropdown i{
+    font-size: 30px;
+  }
+  .dropdown .dropdown-content {
+    display: none;
+  }
+  .dropdown ul{
+    list-style: none;
+  }
+  .dropdown:hover .dropdown-content{
+    display: block;  /* é muito utilizado em sites responsivos*/
+  }
+}
